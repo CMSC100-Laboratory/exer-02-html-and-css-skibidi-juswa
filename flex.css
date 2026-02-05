@@ -38,9 +38,14 @@
     border-width: 5px;
     border-color: red;
     flex-direction: row;
-    width: 95%;
+    width: 100%;
     gap: 20px;
 
+}
+
+
+.centered-header {
+    text-align: center;
 }
 
 .images {
@@ -49,8 +54,11 @@
     max-width: 500px;
 }
 
-.centered-header {
-    text-align: center;
+.project-box {
+    width: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: blue;
 }
 
 footer {
