@@ -10,29 +10,44 @@
     display: flex;
     border-style: solid;
     border-width: 5px;
+    min-height: 800px;
     border-color: black;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.flex-container-child{
+.flex-container-child {
     border-style: solid;
     border-width: 5px;
     border-color: red;
+    width: 95%;
 }
 
-.flex-container-child-row{
+.flex-wrapper-row {
     display: flex;
     border-style: solid;
     border-width: 5px;
     border-color: red;
     flex-direction: row;
+    width: 95%;
+
 }
 
-footer{
+.images {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+}
+
+.centered-header {
+    text-align: center;
+}
+
+footer {
     border-style: solid;
     border-width: 5px;
     border-color: green;
-    margin-bottom: auto;
 }
