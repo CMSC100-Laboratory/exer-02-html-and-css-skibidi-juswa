@@ -10,20 +10,26 @@
   <body>
     
     <nav>
-    <div class="nav_bar" >
-        Navigation bar
-    </div>
+        <div class="nav-bar" id="nav-section">
+            <div class="nav-logo">
+                MY PORTFOLIO
+            </div>
+            <ul class="nav-shortcuts">
+                <li><a href="#main-section">Main</a></li>
+                <li><a href="#project-section">Projects</a></li>
+                <li><a href="#skills-autobio-section">Skills & Autobiography</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <div class="flex-container-parent">
+    <div class="main-container-parent" id="main-section">
         <!-- Featured Photo section -->
-        <div class="flex-container-child">
-            <h1>Featured Photo</h1>
+        <div class="main-container-child">
             <img src="../images/week2-images/Elepano_5R.jpg" alt="Profile Picture" class="profile-image">
         </div>
 
         <!-- Previous Projects section -->
-        <div class="flex-container-child">
+        <div class="main-container-child" id="project-section">
             <h1>Previous Projects</h1> 
             <div class="flex-wrapper-row">
                 <div class="project-box">
@@ -42,9 +48,9 @@
         </div>
 
         <!-- Skills & Autobiography section -->
-        <div class="flex-container-child">
-             <div class="flex-wrapper-row" id="skills-autobio-section">
-                <div class="flex-container-child" id="skills-specific">
+        <div class="main-container-child" id="skills-autobio-section">
+             <div class="flex-wrapper-row">
+                <div class="main-container-child" id="skills-specific">
                     <h1 id="skills-autobio-header">Skills</h1>
                     <div class="skills-box">
                         <ul>
@@ -56,9 +62,9 @@
                         </ul>
                     </div>
                 </div>
-                <div class="flex-container-child">
+                <div class="main-container-child">
                     <h1 id="skills-autobio-header">Autobiography</h1>
-                    <p>
+                    <p class="autobio-para">
                         I am Joshua B. Elepano. I was born in Calamba, Laguna and I am currently 19 years old and my birthday is on February 07, 2006. I am currently studying in University of Los Banos Philippines, currently studying BS Computer Science as a sophomore. Lorem ipsum dolor sit amet. At reprehenderit fugit et quisquam similique ad accusantium illum et galisum culpa. Aut libero illo in galisum totam qui provident repellendus non totam nostrum qui blanditiis placeat non odio libero.
                     </p>
                 </div>
@@ -67,7 +73,17 @@
     </div>
 
     <footer>
-        Footer
+        <div class="footer-container-parent" >
+            <div class="footer-logo">
+                <img src="../images/week2-images/ics-logo.png" alt="ICS LOGO" class="footer-logo">
+            </div>
+            <ul class="footer-contents">
+                <li>#27M.H. Del Pilar Street Calamba, Laguna</a></li>
+                <li>0991 898 2884</li>
+                <li>jbelepano@up.edu.ph</li>
+                <li><a href="#nav-section">Back to Top</a></li>
+            </ul>
+        </div>
     </footer>
   </body>
 
