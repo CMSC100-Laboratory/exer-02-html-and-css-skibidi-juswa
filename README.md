@@ -1,1 +1,4 @@
-README file added to test if i can push in my local setup
+Joshua B. Elepano
+BS COMSCI
+Make repo public - Settings - Pages - Select branch save - then wait
+HTML and CSS are time consuming but can be fun
